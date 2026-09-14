@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:3000"; // Adjust port if needed
+const API_BASE = "https://task6-login-register.onrender.com/"; // Adjust port if needed
 
 export default function App() {
   const [view, setView] = useState("login"); // 'login' | 'register' | 'users'
