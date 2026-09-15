@@ -1,6 +1,6 @@
 {
   "framework": "create-react-app",
-  "installCommand": "cd frontend/my-react-app && npm install",
-  "buildCommand": "cd frontend/my-react-app && npm run build",
-  "outputDirectory": "frontend/my-react-app/build"
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build"
 }
